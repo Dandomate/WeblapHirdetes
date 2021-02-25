@@ -1,0 +1,199 @@
+.topnav {
+    background-color: rgb(14, 168, 0);
+    overflow: hidden;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+    color: rgb(14, 168, 0);
+    background-color: rgb(19, 0, 187);
+}
+
+.kozepre {
+    text-align: center;
+    padding: 10px;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    background-blend-mode: overlay;
+    padding: 0px 0px;
+    width: 100%;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2vw;
+}
+
+#bekezdes1 {
+    font-size: 2vw;
+    text-align: center;
+    padding-top: 25px;
+    font-weight: bold;
+}
+
+#bekezdes2 {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+#kepek {
+    text-align: center;
+    display: table;
+    width: 100%;
+    /*Optional*/
+    table-layout: fixed;
+    /*Optional*/
+    border-spacing: 20px;
+    /*Optional*/
+    padding: 5px 150px;
+}
+
+.kepline {
+    display: table-cell;
+    padding: 10px 20px;
+}
+
+.kep {
+    width: 450px;
+    height: 200px;
+    border: rgb(19, 0, 187) 3px solid;
+    margin: 10px;
+    border: 10px solid rgb(19, 0, 187);
+    border-radius: 500px;
+}
+
+.responsive {
+    width: 100%;
+    height: 250px;
+}
+
+#tippmixkep {
+    height: auto;
+    min-height: 600px;
+    color: white;
+}
+
+#sec2 {
+    background-color: rgb(14, 168, 0);
+    height: auto;
+    min-height: 600px;
+    color: white;
+}
+
+p {
+    font-size: 0.9vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+#sec3 {
+    text-align: center;
+    background-image: url(lottozo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: fit-content;
+    min-height: 500px;
+    width: max-content;
+    min-width: 100%;
+}
+
+footer {
+    height: auto;
+    min-height: 200px;
+    background-color: rgb(14, 168, 0);
+}
+
+#also {
+    float: left;
+    color: white;
+    font-size: 20px;
+    width: 700px;
+    padding-left: 250px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box
+}
+
+#miertcim {
+    color: black;
+    text-align: center;
+    text-shadow: 2px 2px rgb(14, 168, 0);
+}
+
+#hatteres {
+    background-color: rgb(255, 255, 255, 0.5);
+    color: black;
+    size: cover;
+    max-width: max-content;
+    max-height: max-content;
+    font-size: initial;
+}
+
+#videos {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#felsorolas1 {
+    list-style-image: url(lista.png);
+    padding: 10px;
+    margin-left: 100px;
+    text-align: justify;
+}
+
+#mielott {
+    padding: 10px;
+    text-align: center;
+    text-shadow: 2px 2px rgb(14, 168, 0);
+}
+
+#nincsfelsorolo {
+    list-style: none;
+}
+
+.feher {
+    color: white;
+}
+
+#alsotabla {
+    text-align: center;
+}
+
+.paddingos {
+    padding: 2px;
+}
+
+.marginos {
+    margin-right: 10px;
+}
